@@ -1,0 +1,8 @@
+node_modules
+.serverless
+
+./reference/policy.json
+.env
+.env.dev
+.env.prod
+.DS_Store

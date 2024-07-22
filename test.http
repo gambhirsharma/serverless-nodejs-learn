@@ -1,0 +1,22 @@
+GET http://localhost:3000 HTTP/2
+Accept: application/json
+
+###
+GET https://muxf06uir2.execute-api.ap-south-1.amazonaws.com HTTP/2
+Accept: application/json
+
+###
+# GET localhost:3000/leads HTTP/1.1
+# accept: application/json
+
+###
+POST http://localhost:3000/leads
+Content-Type: application/json
+
+{
+"email": "sudhir@test.com"
+}
+
+###
+
+GET http://localhost:3000/leads HTTP/2
